@@ -1,0 +1,26 @@
+{
+  "name": "osm2position",
+  "version": "1.0.0",
+  "description": "Package nodejs to retrieve osm data and add them to the position database",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Position-Platform/osm2position-app.git"
+  },
+  "keywords": [
+    "Osm",
+    "Position",
+    "Python",
+    "nodejs",
+    "overpass"
+  ],
+  "author": "Position",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Position-Platform/osm2position-app/issues"
+  },
+  "homepage": "https://github.com/Position-Platform/osm2position-app#readme"
+}
