@@ -1,8 +1,24 @@
 const fs = require("fs");
 const { convertHour } = require("./convert.js");
+const chalk = require("chalk");
+const boxen = require("boxen");
+
+const greeting = chalk.white.bold("Bienvenue sur osm2position!!!");
+
+const boxenOptions = {
+    padding: 1,
+    margin: 1,
+    borderStyle: "round",
+    borderColor: "#05BF95",
+    backgroundColor: "#555555",
+};
+const msgBox = boxen(greeting, boxenOptions);
+
+
 
 
 function addDataInDb(client, done) {
+    console.log(msgBox);
     for (let i = 1; i <= 478; i++) {
 
         try {
