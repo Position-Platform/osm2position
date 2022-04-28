@@ -23,7 +23,7 @@ function addDataInDb(client, done) {
                 let website =
                     osm["properties"]["website"] ?? osm["properties"]["contact:website"];
                 let addr_postcode = osm["properties"]["addr:postcode"];
-                let id = osm["id"].replace("node/", "");
+                let id = osm["id"];
                 let city = osm["properties"]["addr:city"];
 
                 let batiment = {
