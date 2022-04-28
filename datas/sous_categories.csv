@@ -1,239 +1,479 @@
-﻿id;name;tag;attribut;count
-1;Boutiques;shop;boutique;49
-2;Brocante;shop;department_store;25
-3;Supermarché;shop;supermarket;208
-4;Epicerie;shop;convenience;3038
-5;Blanchisseries et Pressings;amenity;washing_machine;0
-7;Maison et Jardin;landuse;allotmentsrg;0
-8;Hifi, téléphonie;amenity;telephone;15
-9;Fleuriste;shop;florist;4
-10;Boulangerie, Pâtisserie;shop;bakery;166
-12;Tabac;shop;cannabis;0
-13;Jouets et jeux;shop;toy;0
-14;Magasin de sport;shop;sport;0
-15;Ameublement et Mobilier;office;estate_agent;6
-16;Fournitures de Bureaux;shop;stationery;26
-17;Mobilier de Bureaux;shop;stationery;26
-18;Mobilier de Jardin;leisure;garden;2
-19;Vêtements;shop;clothes;715
-20;Chaussures;shop;shoes;76
-21;Bijoux et accessoires;shop;fashion_accessories;31
-23;Administrations;office;government;394
-24;Ambassades et Consulats;diplomatic;embassy;40
-25;Associations, syndicats;office;association;91
-28;O.N.G & Organisations Internationales;office;ngo;98
-29;Offices Nationaux;office;government;394
-30;Poste;amenity;post_office;60
-31;Sécurité Sociale;amenity;social_facility;306
-32;Institution publique;office;government;394
-33;Matériels et Produits agricoles;building ;barn;6
-34;Agricole, Produits Chimiques;building;barn;6
-35;Agriculture;building;barn;6
-36;Equipements et Matériel agricoles;building;building;6
-39;Elevage;amenity;animal_breeding;1
-40;Elevage - Consultants;amenity;animal_breeding;1
-42;Alcools, vins, spiritueux, drogueries;shop;alcohol;21
-48;Boissons;amenity;bar;1860
-50;Boulangeries, Patisseries, Glaces; shop;bakery;166
-51;Boulangeries, Patisseries, Glaces - matériel & équipement;shop;bakery;166
-52;Brasseries;craft;brewery;0
-53;Brasseries - matériel & équipement;craft;brewery;0
-54;Cacao - Production et Exportation;landuse;farm;1
-55;Café - Production et Exportation;landuse;farm;1
-56;Catering;amenity;caterer;0
-57;Distilleries;craft;distillery;0
-58;Environnement;amenity;area;0
-60;Lait, Yaourt et Fromage;shop;cheese;0
-61;Laiteries;vending;milk;0
-63;Pêche - Commercialisation et Exportation;leisure;fishing;3
-64;Pêche - Congelation;leisure;fishing;3
-66;Supermarchés;shop;supermarket;208
-68;Traiteurs;amenity;caterer;0
-69;Auto-Ecoles;amenity;driving_school;114
-70;Automobiles et Concessionnaires;shop;car_repair;660
-71;Expertises automobiles;shop;car_repair;660
-72;Automobiles - Pièces Détachées et Accessoires;shop;car_parts;497
-73;Voitures d'occasion;shop;second_hand;35
-75;Contrôles Techniques;amenity;vehicle_inspection;0
-76;Cycles et Motos;actuator;electric_motor;0
-78;Garages;amenity;car_rental;11
-82;Pneumatiques;actuator;pneumatic_cylinder;0
-86;Parking;amenity;parking;31
-87;Garage;building;garage;130
-88;Assurances;office;insurance;94
-89;Assurances Vies;office;insurance;94
-90;Assurances médicales;office;insurance;94
-91;Assureurs - Courtiers Et Conseils;office;insurance;94
-92;Banques et Organismes Financiers;amenity;bank;326
-93;Equipements de Sécurité Bancaire;amenity;bank;326
-94;Banques - Services Mobiles;amenity;bank;326
-95;Bureaux de Change et Transferts d'argent;amenity;bureau_de_change;78
-98;Centres d'Information;information;office;5
-111;Bâches et Stores;outlet;noise_barrier;0
-112;Bâtiments et Travaux Publics;building;yes;216
-113;Bâtiments - Expertises;building;yes;216
-114;Bâtiments - Nettoyage;building;yes;216
-115;Bâtiments - Préfabriqué;building;yes;216
-116;Bâtiments - Ravalement;building;yes;216
-117;Bâtiments - Réhabilitation;building;yes;216
-118;Bâtiments - Second Œuvre;building;yes;216
-120;Bois et Négoce;craft;carpenter;452
-121;Bois - Industries;craft;carpenter;452
-122;Bois - Scieries;craft;carpenter;452
-123;Bricolage;shop;doityourself;15
-144;Forages;man_made;water_well;1587
-145;Forages - Maintenance;man_made;water_works;32
-146;Forages - Matériels et Equipements;man_mad;wastewater_plant;2
-152;Hydraulique;actuato;hydraulic_cylinder;0
-153;Hydraulique - Constructions;actuator;hydraulic_cylinder;0
-154;Hydraulique - Matériels et Equipements;actuator;hydraulic_cylinder;0
-155;Isolation industrielle;landuse;industrial;1
-159;Menuiseries Aluminium;craft;carpenter;452
-160;Menuiseries Bois;craft;carpenter;452
-161;Menuiseries Industrielles;craft;carpenter;452
-162;Menuiseries Métalliques;craft;carpenter;452
-169;Peintres;craft;painter;52
-171;Piscines;leisure;swimming_pool;4
-172;Plomberie et Sanitaires;craft;plumber,hvac;66
-173;Portes et Fenêtres;craft;window_construction;0
-176;Routes;type;route;0
-177;Routes - Matériaux;type;route;0
-178;Routes - Signalisation;type;route;0
-179;Serrureries;craft;locksmith;5
-186;Coiffeur;shop;hairdresser;1053
-187;Institut de beauté, parfumerie, relaxation;shop;beauty;1079
-188;Massages;shop;massage;0
-200;Agences de Presse et d'Information;office;publisher;0
-201;Agences de Publicité et de Communication;office;advertising_agency;1
-203;Evénementiel;amenity;events_venue;103
-204;Journaux et Presse;office;newspaper;6
-205;Maison d'édition;office;publisher;0
-206;Marketing;office;advertising_agency;1
-207;Objets Publicitaires;advertising;sculpture;0
-214;Eau - Distribution;vending;water;0
-215;Eau - Laboratoires d'Analyses;landuse;pond;0
-216;Eau - Traitement;landuse;pond;0
-218;Crèche;amenity;kimdgardent;2
-223;Ecoles et Universités;amenity;college;174
-226;Electricité - Générale et Industrielle;craft;electronics_repair;150
-227;Electricité - Expertises;craft;electrician;2
-228;Electricité - Industries;craft;electronics_repair;150
-229;Electricité - Ingénierie;craft;electrician;2
-230;Electricité - Materiels et Equipement;craft;electronics_repair;150
-233;Energie;power;generator;50
-234;Energie Nouvelle et Renouvelable;power;plant;1
-235;Energie Solaire;generator:source;solar;1
-248;Pétroliers, Constructions;generator:source;gasoline;0
-249;Pétroliers - Matériels et Equipement;generator:source;gasoline;0
-252;Immobilier - Agences;office;estate_agent;6
-260;Armes et Munitions;shop;military_surplus;0
-263;Chaussures, Manufactures;shop;shoes;76
-268;Equipements de Bureaux;shop;stationery;26
-270;Fournitures Industrielles;shop;furniture;91
-275;Matelas;shop;bed;6
-276;Matelas, Equipements et Materiels;shop;bed;6
-285;Soudage, Matériels et Produits;craft;welder;273
-286;Tabac, Manufactures et Importateurs;shop;cannabis;0
-290;Zone Franche Industrielle;landuse;industrial;0
-292;Fournitures de Bureaux, Industries;shop;stationery;26
-296;Parfum, Industries;shop;beauty;1079
-305;Editeurs;office;newspaper;6
-307;Imprimeries;shop;copyshop;175
-308;Imprimeries, Matériels et Equipement;shop;copyshop;175
-343;Casino;amenity;casino;49
-344;Cinéma et vidéothèques;amenity;cinema;2
-345;Centre culturel;landuse;recreation_ground;7
-346;Musée;tourism;museum;8
-347;Musique;leisure;bandstand;15
-348;Théâtre, spectacle;amenity;theatre;1
-349;Cabaret;leisure;dance;0
-350;Bibliothèque et Centre de Documentation;amenity;library;39
-351;Librairie, papeterie;amenity;library;39
-352;Sport;leisure;fitness_centre;8
-353;Espaces verts et Jardins;leisure=park;park;12
-354;Salle de spectacles - salle de fêtes;amenity;community_centre;103
-355;Loisirs, jeux et entertainment;leisure;playground;56
-356;Loterie;amenity;lottery;0
-358;Restaurant;amenity;restaurant;909
-359;Night Clubs et Discothèques;amenity;nightclub;42
-360;Restauration rapide;amenity;fast_food;38
-361;Bar, Café;amenity;bar, cafe;2275
-362;Salons de Thé et Glaciers;shop;ice_cream;1
-363;Ambulance;emergency;ambulance_station;1
-364;Assistance sociale;amenity;social_facility;306
-365;Médecine Générale;amenity;doctors;98
-366;Médecine Spécialisée - dentiste;amenity;dentist;98
-367;Médecine Spécialisée - dermatologie;amenity;doctors;98
-368;Médecine Spécialisée - cardiologie;amenity;doctors;98
-369;Médecine Spécialisée - oncologie;amenity;doctors;98
-370;Médecine Spécialisée - ophtalmologie;amenity;doctors;98
-371;Médecine Spécialisée - psychologie;amenity;doctors;98
-372;Médecine Spécialisée - angiologie;amenity;doctors;98
-373;Médecine Spécialisée - pédicure et podologie;amenity;doctors;98
-374;Médecine Spécialisée - ostéopathie;amenity;doctors;98
-375;Médecine Spécialisée - gynécologie;amenity;doctors;98
-376;Médecine Spécialisée - kinésithérapeute;amenity;doctors;98
-377;Médecine naturelle, traditionnelle;amenity;doctors;98
-379;Chirurgie;amenity;doctors;98
-381;Cliniques et Hopitaux;amenity;clinic;460
-382;Cosmétiques - Industries;shop;beauty;1079
-383;Cosmétiques - Produits;shop;beauty;1079
-384;Drogueries;shop;cannabis;0
-388;Medical - Assistance;shop;medical_supply;13
-389;Medical - Gaz Medical;shop;medical_supply;13
-390;Medical - Industries;shop;medical_supply;13
-391;Medical - Materiels Et Equipements;shop;medical_supply;13
-392;Medical - Produits;shop;medical_supply;13
-393;Opticiens;craft;optician;0
-394;Opticiens - Matériels et Equipements;craft;optician;0
-395;Para-Pharmacie;amenity;pharmacy;245
-396;Pharmaceutiques - Distributeurs;amenity;pharmacy;245
-397;Pharmaceutiques - Industries;amenity;pharmacy;245
-398;Pharmaceutiques - Laboratoires;amenity;pharmacy;245
-399;Pharmaceutiques - Materiels Et Equipement;amenity;pharmacy;245
-400;Pharmaceutiques - Produits;amenity;pharmacy;245
-401;Pharmacies;amenity;pharmacy;245
-403;Urgences Medicales;amenity;ambulance_station;1
-404;Vétérinaires;amenity;veterinary;10
-408;Controles Techniques;amenity;vehicule_inspection;0
-413;Incendie et Protection - Matériels;amenity;fire_station;3
-415;Télé-Surveillance et Vidéo-Surveillance;utility;telecom;0
-416;Télécommunications - Transmission de signal;utility;telecom;0
-417;Télécommunications et Téléphonie;shop;mobile_phone;127
-418;Télécommunications - Fibres Optique;utility;telecom;0
-419;Télécommunications - Installation et maintenance;utility;telecom;0
-420;Télécommunications - Matériels et équipement;utility;telecom;0
-421;Télécommunications - Mobiles;shop;mobile_phone;127
-422;Télécommunications - Réseaux;utility;telecom;0
-423;Télécommunications - Satellite;utility;telecom;0
-424;Confection, Couture, Broderie;shop;sewing;45
-425;Equipements et vêtements militaires;shop;military_surplus;0
-426;Friperies;shop;clothes;715
-427;Prêt à Porter - Gros et Détail;shop;clothes;715
-430;Textile, Fournitures;shop;furniture;91
-433;Agences de Tourisme;information;office;5
-434;Centres d'Information;information;office;5
-436;Equipements Hôtels et Restaurants;tourism;hotel;387
-437;Hôtel;tourism;hotel;387
-438;Auberge;tourism;motel;38
-440;Location de bateaux;amenity;boat_rental;0
-441;Location de voitures;amenity;car_rental;11
-443;Transports Touristiques;information;office;5
-446;Aéronautique;building;hangar;0
-448;Aéronautique - Maintenance;building;hangar;0
-449;Aéroports;aeroway;aerodrome;14
-450;Aéroports - Equipements;aeroway;aerodrome;14
-451;Aéroports -  Maintenance;aeroway;aerodrome;14
-452;Aéroports -  Securite Aerienne;aeroway;aerodrome;14
-453;Aéroports -  Services;aeroway;aerodrome;14
-455;Agences Maritimes;amenity;ferry_terminal;45
-458;Chemin de Fer;railway;subway;0
-466;Manutention - Portuaire;amenity;ferry_terminal;45
-467;Ports;amenity;ferry_terminal;45
-468;Ports, Matériels et Equipements;amenity;ferry_terminal;45
-472;Transports en Commun;public_transport;platform;40
-473;Transports Ferroviaires;railway;subway;0
-475;Transports Maritimes;amenity;ferry_terminal;45
-476;Transports Routiers;route;coach;0
-477;Transports Urbains;route;coach;0
-478;Travaux Maritimes;amenity;ferry_terminal;45
+id,nom,id_categorie,tags_osm,,Osm_data_count
+1,Boutiques,1,shop=boutique,,49
+2,Brocante,1,shop=department_store,,25
+3,Supermarché,1,shop=supermarket,,208
+4,Epicerie,1,shop=convenience,,3038
+5,Blanchisseries et Pressings,1,amenity=washing_machine,,0
+6,Centre Commercial,1,,,
+7,Maison et Jardin,1,landuse=allotmentsrg,,0
+8,"Hifi, téléphonie",1,amenity=telephone,,15
+9,Fleuriste,1,shop=florist,,4
+10,"Boulangerie, Pâtisserie",1,shop=bakery,,166
+11,Caviste,1,,,
+12,Tabac,1,shop=cannabis,,0
+13,Jouets et jeux,1,shop=toy,,0
+14,Magasin de sport,1,shop=sport,,0
+15,Ameublement et Mobilier,1,office=estate_agent,,6
+16,Fournitures de Bureaux,1,shop=stationery,,26
+17,Mobilier de Bureaux,1,shop=stationery,,26
+18,Mobilier de Jardin,1,leisure=garden,,2
+19,Vêtements,1,shop=clothes,,715
+20,Chaussures,1,shop=shoes,,76
+21,Bijoux et accessoires,1,shop=fashion_accessories,,31
+22,Puériculture,1,,,
+23,Administrations,2,office=government,,394
+24,Ambassades et Consulats,2,diplomatic=embassy,,40
+25,"Associations, syndicats",2,office=association,,91
+26,"Douane, Agences",2,,,
+27,Ministères,2,,,
+28,O.N.G & Organisations Internationales,2,office=ngo,,98
+29,Offices Nationaux,2,office=government,,394
+30,Poste,2,amenity=post_office,,60
+31,Sécurité Sociale,2,amenity=social_facility,,306
+32,Institution publique,2,office=government,,394
+33,Matériels et Produits agricoles,3,building=barn; craft=agricultural_engines ,,6
+34,"Agricole, Produits Chimiques",3,building=barn,,6
+35,Agriculture,3,building=barn,,6
+36,Equipements et Matériel agricoles,3,building=barn; craft=agricultural_engines,,6
+37,Agro-Alimentaire,3,,,
+38,Agro-Industrie,3,,,
+39,Elevage,3,amenity=animal_breeding,,1
+40,Elevage - Consultants,3,amenity=animal_breeding,,1
+41,Abattoirs et Viande en Gros,4,,,
+42,"Alcools, vins, spiritueux, drogueries",4,amenity=bar;shop=alcohol,,1881
+43,"Alimentaire, Distributeurs et Grossistes",4,,,
+44,Industries alimentaires,4,landuse=industrial,,
+45,Produits alimentaires,4,,,
+46,Alimentation Animale,4,,,
+47,Alimentation Générale,4,,,
+48,Boissons,4,craft=brewery;amenity=bar,,1860
+49,Boucherie - charcuterie,4,,,
+50,"Boulangeries, Patisseries, Glaces",4, shop=bakery,,166
+51,"Boulangeries, Patisseries, Glaces - matériel & équipement",4,shop=bakery,,166
+52,Brasseries,4,craft=brewery,,0
+53,Brasseries - matériel & équipement,4,craft=brewery,,0
+54,Cacao - Production et Exportation,4,highway=track;landuse=farm,,1
+55,Café - Production et Exportation,4,highway=track;landuse=farm,,1
+56,Catering,4,amenity=caterer,,0
+57,Distilleries,4,craft=distillery,,0
+58,Environnement,4,amenity=area,,0
+59,Gomme Arabique,4,,,
+60,"Lait, Yaourt et Fromage",4,shop=cheese,,0
+61,Laiteries,4,vending=milk,,0
+62,Minoteries,4,,,
+63,Pêche - Commercialisation et Exportation,4,vending=fishing_bait;leisure=fishing,,3
+64,Pêche - Congelation,4,vending=fishing_bait,,3
+65,"Sucre, Fabrication et Raffinage",4,,,
+66,Supermarchés,4,shop=supermarket,,208
+67,Thé - Production et Commercialisation,4,,,
+68,Traiteurs,4,amenity=caterer,,0
+69,Auto-Ecoles,5,amenity=driving_school,,114
+70,Automobiles et Concessionnaires,5,shop=car_repair,,660
+71,Expertises automobiles,5,shop=car_repair,,660
+72,Automobiles - Pièces Détachées et Accessoires,5,shop=car_parts,,497
+73,Voitures d'occasion,5,shop=second_hand,,35
+74,Constructions Mécaniques,5,,,
+75,Contrôles Techniques,5,amenity=vehicle_inspection,,0
+76,Cycles et Motos,5,actuator=electric_motor,,0
+77,Engins de Chantier et Matériels,5,,,
+78,Garages,5,amenity=car_rental,,11
+79,Mécanique Générale,5,,,
+80,Mécanique - Industries,5,landuse=industrial,,
+81,Moteurs et Pompes,5,,,
+82,Pneumatiques,5,actuator=pneumatic_cylinder,,0
+83,Tracking,5,cycleway=track,,
+84,Véhicules Industriels,5,,,
+85,Station-service,5,,,
+86,Parking,5,amenity=parking,,31
+87,Garage,5,building=garage,,130
+88,Assurances,6,office=insurance,,94
+89,Assurances Vies,6,office=insurance,,94
+90,Assurances médicales,6,office=insurance,,94
+91,Assureurs - Courtiers Et Conseils,6,office=insurance,,94
+92,Banques et Organismes Financiers,6,amenity=bank,,326
+93,Equipements de Sécurité Bancaire,6,amenity=bank,,326
+94,Banques - Services Mobiles,6,amenity=bank,,326
+95,Bureaux de Change et Transferts d'argent,6,amenity=bureau_de_change,,78
+96,Bureaux de Contrôle,6,,,
+97,Cabinets Comptables,6,,,
+98,Centres d'Information,6,information=office,,5
+99,Crédits et Finances,6,,,
+100,"Enquêtes, recherches et investigation",6,,,
+101,Holdings,6,,,
+102,Investissements,6,,,
+103,Transports de Fonds,6,,,
+104,Adduction d'eau et VRD,7,,,
+105,Agencement et Décoration,7,,,
+106,Industrie d'aluminium,7,,,
+107,Aménagement des Terrains Urbains,7,,,
+108,Architecture et Urbanisme,7,,,
+109,Ascenseurs,7,,,
+110,Assainissement et Canalisations,7,,,
+111,Bâches et Stores,7,outlet=noise_barrier,,0
+112,Bâtiments et Travaux Publics,7,building=yes,,216
+113,Bâtiments - Expertises,7,building=yes,,216
+114,Bâtiments - Nettoyage,7,building=yes,,216
+115,Bâtiments - Préfabriqué,7,building=yes,,216
+116,Bâtiments - Ravalement,7,building=yes,,216
+117,Bâtiments - Réhabilitation,7,building=yes,,216
+118,Bâtiments - Second Œuvre,7,building=yes,,216
+119,Bitume,7,,,
+120,Bois et Négoce,7,craft=carpenter,,452
+121,Bois - Industries,7,craft=carpenter;shop=hardware;landuse=industrial,,452
+122,Bois - Scieries,7,craft=carpenter;shop=hardware,,452
+123,Bricolage,7,shop=doityourself,,15
+124,Briqueteries,7,,,
+125,Bureaux d'Etudes et D'Ingénierie,7,,,
+126,Câbles,7,,,
+127,Caoutchouc,7,,,
+128,Carrelages,7,,,
+129,Carrières - Exploitations et Exploration,7,,,
+130,Chaudronnerie,7,,,
+131,Cimenteries,7,,,
+132,Citernes - Métallique et Plastique,7,,,
+133,Climatisation,7,,,
+134,Climatisation - Dépannage et Maintenance,7,,,
+135,Constructions Industrielles,7,,,
+136,Constructions Métalliques,7,,,
+137,Développement Rural et Urbain,7,,,
+138,Ebenistes,7,,,
+139,Echafaudages,7,,,
+140,Espaces Verts et Jardins,7,,,
+141,Etanchéité,7,,,
+142,Faux-Plafonds et Staff,7,,,
+143,Fer et Acier,7,,,
+144,Forages,7,man_made=water_well,,1587
+145,Forages - Maintenance,7,man_made=water_works,,32
+146,Forages - Matériels et Equipements,7,man_made=wastewater_plant,,2
+147,Forestiers - Matériels et Equipement,7,,,
+148,Génie Civil,7,,,
+149,Géologues,7,,,
+150,Géomètres - topographes,7,,,
+151,Groupes Electrogènes,7,,,
+152,Hydraulique,7,actuator=hydraulic_cylinder,,0
+153,Hydraulique - Constructions,7,actuator=hydraulic_cylinder,,0
+154,Hydraulique - Matériels et Equipements,7,actuator=hydraulic_cylinder,,0
+155,Isolation industrielle,7,landuse=industrial,,1
+156,Laboratoires d'Analyses du Bâtiment,7,,,
+157,Location d'Engins de Chantier,7,,,
+158,Matériaux de Construction,7,,,
+159,Menuiseries Aluminium,7,"craft=joiner,carpenter,cabinet_maker",,452
+160,Menuiseries Bois,7,"craft=joiner,carpenter,cabinet_maker",,452
+161,Menuiseries Industrielles,7,"craft=joiner,carpenter,cabinet_maker",,452
+162,Menuiseries Métalliques,7,"craft=joiner,carpenter,cabinet_maker",,452
+163,Mines - Exploitations et Exploration,7,,,
+164,Mines - Import et Export,7,,,
+165,Mines - Matériels et Equipements,7,,,
+166,Mines - Recherche,7,,,
+167,Miroiteries et Vitreries,7,,,
+168,Ouvrages d'Art,7,,,
+169,Peintres,7,craft=painter,,52
+170,Peinture,7,craft=painter,,52
+171,Piscines,7,leisure=swimming_pool,,4
+172,Plomberie et Sanitaires,7,"craft=plumber,hvac",,66
+173,Portes et Fenêtres,7,craft=window_construction,,0
+174,Propreté urbaine,7,,,
+175,Quincailleries,7,,,
+176,Routes,7,highway=trunk; highway=secondary;type=route,,0
+177,Routes - Matériaux,7,highway=trunk; highway=secondary;type=route,,0
+178,Routes - Signalisation,7,highway=trunk; highway=secondary;type=route,,0
+179,Serrureries,7,craft=locksmith,,5
+180,Toitures - Matériaux,7,,,
+181,Tôles,7,,,
+182,Topographie,7,,,
+183,Travaux Publics et Terrassement,7,,,
+184,Travaux Publics et Terrassement - Maintenance,7,,,
+185,Tuyauteries et PVC,7,,,
+186,Coiffeur,8,shop=hairdresser,,1053
+187,"Institut de beauté, parfumerie, relaxation",8,shop=beauty,,1079
+188,Massages,8,shop=massage,,0
+189,Centrales d'Achats,9,,,
+190,Chambres de Commerce,9,,,
+191,Commerce Exterieur - Promotion,9,,,
+192,Commerce Général,9,,,
+193,E-Commerce,9,,,
+194,Groupements D'Entreprises,9,,,
+195,Import et Export,9,,,
+196,Promotion Commerciale et Etudes,9,,,
+197,Recouvrements Commerciaux,9,,,
+198,Représentation Commerciale,9,,,
+199,Agences de Mannequins,10,,,
+200,Agences de Presse et d'Information,10,office=publisher,,0
+201,Agences de Publicité et de Communication,10,office=advertising_agency,,1
+202,Audiovisuel - Matériels et Production,10,,,
+203,Evénementiel,10,"amenity=community_centre,events_venue",,103
+204,Journaux et Presse,10,office=newspaper,,6
+205,Maison d'édition,10,office=publisher,,0
+206,Marketing,10,office=advertising_agency,,1
+207,Objets Publicitaires,10,advertising=sculpture,,0
+208,Organisations de Conférences,10,,,
+209,Radio et Télévision,10,,,
+210,Radio-Communication,10,,,
+211,Relations Publiques et Organisations,10,,,
+212,Ressources Humaines,10,,,
+213,Sérigraphie,10,,,
+214,Eau - Distribution,11,vending=water,,0
+215,Eau - Laboratoires d'Analyses,11,landuse=pond,,0
+216,Eau - Traitement,11,landuse=pond,,0
+217,Centres de Documentation,12,,,
+218,Crèche,12,amenity=kindgarten; amenity=childcare,,2
+219,Centre de loisirs d'enfants,12,,,
+220,Centre linguistique - enseignement,12,,,
+221,Centres de Formation,12,,,
+222,Centres de Recherche,12,,,
+223,Ecoles et Universités,12,amenity=college,,174
+224,Automatisme,13,,,
+225,Batteries et Piles,13,,,
+226,Electricité - Générale et Industrielle,13,craft=electronics_repair,,150
+227,Electricité - Expertises,13,craft=electrician,,2
+228,Electricité - Industries,13,craft=electronics_repair,,150
+229,Electricité - Ingénierie,13,craft=electrician,,2
+230,Electricité - Materiels et Equipement,13,craft=electronics_repair,,150
+231,Electrification Rurale Et Urbaine,13,,,
+232,Electromécanique,13,,,
+233,Energie,13,power=station;power=generator,,50
+234,Energie Nouvelle et Renouvelable,13,power=plant,,1
+235,Energie Solaire,13,generator:source=solar,,1
+236,Gaz Domestique Et Industriel,13,,,
+237,Géotechnique,13,,,
+238,Hydrocarbures - Aviation,14,,,
+239,Hydrocarbures - Distribution,14,,,
+240,Hydrocarbures - Equipements Et Mater...,14,,,
+241,Hydrocarbures - Expertises,14,,,
+242,Hydrocarbures - Exploration,14,,,
+243,Hydrocarbures - Logistiques,14,,,
+244,Hydrocarbures - Lubrifiants,14,,,
+245,Hydrocarbures - Maintenance,14,,,
+246,Hydrocarbures - Production,14,,,
+247,Hydrocarbures - Transports,14,,,
+248,"Pétroliers, Constructions",14,generator:source=gasoline,,0
+249,Pétroliers - Matériels et Equipement,14,generator:source=gasoline,,0
+250,Raffineries,14,,,
+251,Garde Meubles,15,,,
+252,Immobilier - Agences,15,office=estate_agent,,6
+253,Immobilier - Expertises,15,,,
+254,Immobilier - Gestion,15,,,
+255,Immobilier - Location,15,,,
+256,Immobilier - Promoteurs,15,,,
+257,Electro-Ménager,16,,,
+258,Electronique,16,,,
+259,Allumettes et Bougies,16,,,
+260,Armes et Munitions,16,shop=military_surplus,,0
+261,Assistance Technique,16,,,
+262,Cartonneries,16,,,
+263,"Chaussures, Manufactures",16,shop=shoes,,76
+264,Coton,16,,,
+265,Dépannage et Maintenance Industrielle,16,,,
+266,Diamant et Or,16,,,
+267,Emballage et Conditionnement,16,,,
+268,Equipements de Bureaux,16,shop=stationery,,26
+269,Equipements Industriels,16,,,
+270,Fournitures Industrielles,16,shop=furniture,,91
+271,Froid Industriel,16,,,
+272,Location De Matériels,16,,,
+273,"Machines-Outils, Manufactures",16,,,
+274,Manutention Industrielle,16,,,
+275,Matelas,16,shop=bed,,6
+276,"Matelas, Equipements et Materiels",16,shop=bed,,6
+277,"Mesure et Pesage, Materiels",16,,,
+278,Nettoyage Industriel,16,,,
+279,"Nettoyage, Matériels et Equipements",16,,,
+280,Papier - Industries,16,landuse=industrial,,
+281,Pièces Détachées Industrielles,16,landuse=industrial,,
+282,Plastique - Industries,16,landuse=industrial,,
+283,Plastique - Produits,16,,,
+284,Savonneries,16,,,
+285,"Soudage, Matériels et Produits",16,craft=welder,,273
+286,"Tabac, Manufactures et Importateurs",16,shop=cannabis,,0
+287,"Travail Temporaire, Interim",16,,,
+288,Tuyauteries,16,,,
+289,Verre - Industries,16,,,
+290,Zone Franche Industrielle,16,landuse=industrial,,
+291,"Ameublement et Mobilier, Industries",16,,,
+292,"Fournitures de Bureaux, Industries",16,shop=stationery,,26
+293,Mobilier - Industries,16,,,
+294,Chimie - Industries,16,,,
+295,Chimie - Produits,16,,,
+296,"Parfum, Industries",16,shop=beauty,,1079
+297,"Antennes Paraboliques, Equipements",17,,,
+298,Archivage Numerique,17,,,
+299,Bureautique,17,,,
+300,Business Center,17,,,
+301,Centres d'Appels,17,,,
+302,"Courriers Express, Colis Express",17,,,
+303,Cyber-Cafes,17,,,
+304,Domiciliation de Sociétés,17,,,
+305,Editeurs,17,office=newspaper,,6
+306,Etudes de Marchés,17,,,
+307,Imprimeries,17,shop=copyshop;craft=printer,,175
+308,"Imprimeries, Matériels et Equipement",17,shop=copyshop,,175
+309,Informatique,17,,,
+310,Informatique - Consommables,17,,,
+311,Informatique - Constructeurs,17,,,
+312,Informatique - Consultants,17,,,
+313,Informatique - Environnement,17,,,
+314,Informatique - Expertises,17,,,
+315,Informatique - Gestion De Maintenance,17,,,
+316,Informatique - Ingénierie,17,,,
+317,Informatique - Ingénieurs,17,,,
+318,Informatique - Maintenance,17,,,
+319,Informatique - Reseaux,17,,,
+320,Informatique - Securite,17,,,
+321,Internet,17,,,
+322,Internet - Provider,17,,,
+323,Internet - Web Design,17,,,
+324,Internet - E-Business & E-Commerce,17,,,
+325,Paratonnerre,17,,,
+326,Technologies Nouvelles,17,,,
+327,"Technologies Nouvelles, Consultants",17,,,
+328,Traducteurs Et Interpretes,17,,,
+329,Avocats,18,,,
+330,Avocats d'Affaires Internationales,18,,,
+331,Cabinets Juridiques et Fiscaux,18,,,
+332,Consultants,18,,,
+333,Consultants en Immigration,18,,,
+334,Consultants Internationaux,18,,,
+335,"Expertises  Comptables, Audit Et Conseil",18,,,
+336,"Expertises - Etudes, Communication",18,,,
+337,Expertises Judiciaire,18,,,
+338,Huissiers De Justice,18,,,
+339,Notaires,18,,,
+340,Projets et Bureaux D'Appui,18,,,
+341,"Artisanat, Antiquaires et Galeries d'Art",19,,,
+342,Cadeaux,19,,,
+343,Casino,19,amenity=casino,,49
+344,Cinéma et vidéothèques,19,amenity=cinema,,2
+345,Centre culturel,19,landuse=recreation_ground,,7
+346,Musée,19,tourism=museum,,8
+347,Musique,19,leisure=bandstand,,15
+348,"Théâtre, spectacle",19,amenity=theatre,,1
+349,Cabaret,19,leisure=dance,,0
+350,Bibliothèque et Centre de Documentation,19,amenity=library,,39
+351,"Librairie, papeterie",19,amenity=library,,39
+352,Sport,19,building=pavilion;club=sport;leisure=fitness_centre,,8
+353,Espaces verts et Jardins,19,leisure=park,,12
+354,Salle de spectacles - salle de fêtes,19,,,
+355,"Loisirs, jeux et entertainment",19,leisure=playground,,56
+356,Loterie,19,amenity=lottery,,0
+357,"Voyance, Medium",19,,,
+358,Restaurant,20,amenity=restaurant,,909
+359,Night Clubs et Discothèques,20,amenity=nightclub,,42
+360,Restauration rapide,20,amenity=fast_food,,38
+361,"Bar, Café",20,"amenity=bar, cafe",,2275
+362,Salons de Thé et Glaciers,20,shop=ice_cream,,1
+363,Ambulance,21,emergency=ambulance_station,,1
+364,Assistance sociale,21,amenity=social_facility,,306
+365,Médecine Générale,21,amenity=doctors,,98
+366,Médecine Spécialisée - dentiste,21,amenity=dentist,,98
+367,Médecine Spécialisée - dermatologie,21,amenity=doctors,,98
+368,Médecine Spécialisée - cardiologie,21,amenity=doctors,,98
+369,Médecine Spécialisée - oncologie,21,amenity=doctors,,98
+370,Médecine Spécialisée - ophtalmologie,21,amenity=doctors,,98
+371,Médecine Spécialisée - psychologie,21,amenity=doctors,,98
+372,Médecine Spécialisée - angiologie,21,amenity=doctors,,98
+373,Médecine Spécialisée - pédicure et podologie,21,amenity=doctors,,98
+374,Médecine Spécialisée - ostéopathie,21,amenity=doctors,,98
+375,Médecine Spécialisée - gynécologie,21,amenity=doctors,,98
+376,Médecine Spécialisée - kinésithérapeute,21,amenity=doctors,,98
+377,"Médecine naturelle, traditionnelle",21,amenity=doctors,,98
+378,Médecine du travail,21,,,
+379,Chirurgie,21,amenity=doctors,,98
+380,Chirurgie Esthétique,21,,,
+381,Cliniques et Hopitaux,21,"amenity=clinic,hospital,healthcare",,486
+382,Cosmétiques - Industries,21,shop=beauty,,1079
+383,Cosmétiques - Produits,21,shop=beauty,,1079
+384,Drogueries,21,shop=cannabis,,0
+385,Laboratoires d'Analyses Médicales,21,,,
+386,"Laboratoires, Matériels et Equipement",21,,,
+387,Laboratoires - Produits,21,,,
+388,Medical - Assistance,21,shop=medical_supply,,13
+389,Medical - Gaz Medical,21,shop=medical_supply,,13
+390,Medical - Industries,21,shop=medical_supply,,13
+391,Medical - Materiels Et Equipements,21,shop=medical_supply,,13
+392,Medical - Produits,21,shop=medical_supply,,13
+393,Opticiens,21,craft=optician,,0
+394,Opticiens - Matériels et Equipements,21, craft=optician,,0
+395,Para-Pharmacie,21,amenity=pharmacy,,245
+396,Pharmaceutiques - Distributeurs,21,amenity=pharmacy,,245
+397,Pharmaceutiques - Industries,21,amenity=pharmacy,,245
+398,Pharmaceutiques - Laboratoires,21,amenity=pharmacy,,245
+399,Pharmaceutiques - Materiels Et Equipement,21,amenity=pharmacy,,245
+400,Pharmaceutiques - Produits,21,amenity=pharmacy,,245
+401,Pharmacies,21,amenity=pharmacy,,245
+402,Phytosanitaires - Traitements,21,,,
+403,Urgences Medicales,21,emergency=ambulance_station,,1
+404,Vétérinaires,21,amenity=veterinary,,10
+405,"Vétérinaires, Produits et Pharmacie",21,,,
+406,"Alarmes Et Surveillance, Matériels électroniques",22,,,
+407,"Badges, Fabrication",22,,,
+408,Controles Techniques,22,amenity=vehicule_inspection,,0
+409,Détectives,22,,,
+410,Escorte Véhicules,22,,,
+411,Gardiennage et Sécurité,22,,,
+412,Gardiennage et Sécurité - Equipements,22,,,
+413,Incendie et Protection - Matériels,22,amenity=fire_station,,3
+414,Sécurité - Audits et Consultants,22,,,
+415,Télé-Surveillance et Vidéo-Surveillance,22,utility=telecom,,0
+416,Télécommunications - Transmission de signal,23,utility=telecom;telecom=service_device,,0
+417,Télécommunications et Téléphonie,23,shop=mobile_phone;utility=telecom,", telecom=service_device",127
+418,Télécommunications - Fibres Optique,23,utility=telecom;telecom=service_device,,0
+419,Télécommunications - Installation et maintenance,23,utility=telecom;telecom=service_device,,0
+420,Télécommunications - Matériels et équipement,23,utility=telecom;telecom=service_device,,0
+421,Télécommunications - Mobiles,23,shop=mobile_phone;utility=telecom,", telecom=service_device",127
+422,Télécommunications - Réseaux,23,utility=telecom;telecom=service_device,,0
+423,Télécommunications - Satellite,23,utility=telecom;telecom=service_device,,0
+424,"Confection, Couture, Broderie",24,shop=sewing,,45
+425,Equipements et vêtements militaires,24,shop=military_surplus,,0
+426,Friperies,24,shop=clothes,,715
+427,Prêt à Porter - Gros et Détail,24,shop=clothes,,715
+428,Textile,24,,,
+429,"Textile, Filature, Tissage, Impression",24,,,
+430,"Textile, Fournitures",24,shop=furniture,,91
+431,Textile - Matériels et Equipements,24,,,
+432,Vêtements  Manufactures,24,,,
+433,Agences de Tourisme,25,information=office,,5
+434,Centres d'Information,25,information=office,,5
+435,"Agences de voyage, tours opérateurs",25,,,
+436,Equipements Hôtels et Restaurants,25,tourism=hotel,,387
+437,Hôtel,25,tourism=hotel,,387
+438,Auberge,25,tourism=motel,,38
+439,Location d'avions,25,,,
+440,Location de bateaux,25,amenity=boat_rental;shop=boat,,0
+441,Location de voitures,25,"amenity=car_rental,car_sharing",,13
+442,Transport Logistique,25,,,
+443,Transports Touristiques,25,information=office,,5
+444,Accastillage,26,,,
+445,Acconage,26,,,
+446,Aéronautique,26,building=hangar,,0
+447,Aéronautique - Centrales D'Achats,26,,,
+448,Aéronautique - Maintenance,26,building=hangar,,0
+449,Aéroports,26,aeroway=aerodrome,,14
+450,Aéroports - Equipements,26,aeroway=aerodrome,,14
+451,Aéroports -  Maintenance,26,aeroway=aerodrome,,14
+452,Aéroports -  Securite Aerienne,26,aeroway=aerodrome,,14
+453,Aéroports -  Services,26,aeroway=aerodrome,,14
+454,Agences en Douane,26,,,
+455,Agences Maritimes,26,amenity=ferry_terminal,,45
+456,Aéronautique - Pièces Détachées,26,,,
+457,Chantiers Navals,26,,,
+458,Chemin de Fer,26,railway=subway,,0
+459,Compagnies Aériennes,26,,,
+460,"Containers, Fabrication et Location",26,,,
+461,Déménagements,26,,,
+462,Expertises Maritimes et Terrestres,26,,,
+463,Fret aérien - maritime & international,26,,,
+464,Manutention et Entreposage,26,,,
+465,Manutention - Equipements,26,,,
+466,Manutention - Portuaire,26,amenity=ferry_terminal,,45
+467,Ports,26,amenity=ferry_terminal,,45
+468,"Ports, Matériels et Equipements",26,amenity=ferry_terminal,,45
+469,Shipchandler,26,,,
+470,Transit et Consignation,26,,,
+471,Transports Aériens,26,,,
+472,Transports en Commun,26,public_transport=platform,,40
+473,Transports Ferroviaires,26,railway=subway,,0
+474,Transports Internationaux,26,,,
+475,Transports Maritimes,26,amenity=ferry_terminal,,45
+476,Transports Routiers,26,route=coach,,0
+477,Transports Urbains,26,route=coach,,0
+478,Travaux Maritimes,26,amenity=ferry_terminal,,45

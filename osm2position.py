@@ -1,43 +1,112 @@
+# -*- coding: utf-8 -*-
+"""
+Spyder Editor
+
+This is a temporary script file.
+"""
+
 import pandas as pd
 import requests
 import json
+import overpass
+import numpy as np
 import geojson
-import codecs
-import osm2geojson
+import time
+import overpy
 
-j = 0
+def construction_requete(key,value):
+    M=value.split(",")
+    query=""
+    
+    for i in range(len(M)):
+      
+       
+       
+        query+="node["+key+"="+M[i]+"](area);"
+       
+        
+    #print(query)
+   
+    return query
+        
+  
+def make_overpass_request(query,api):
+    
+    response = None
+    while response is None:
+        try:
+            response = api.get(query ,verbosity='geom')
+            time.sleep(10)
+           
+        except:
+            print("error")
+            pass
+    
+    return response
 
-f = pd.read_csv('datas/sous_categories.csv', sep=";")
-file = f[0:1]
-for i in range(len(file)):
 
-    overpass_url = "http://overpass-api.de/api/interpreter"
-    overpass_query = """
-    [out:json][timeout:300];
-    area["ISO3166-1"="CM"][admin_level=2];
-    (node["""+file['tag'][i]+"="+file['attribut'][i]+"""](area);
-    );
-    out center;
-    """
-    response = requests.get(overpass_url,
-                            params={'data': overpass_query})
-    data = response.json()
+def store_geojson_file(index,response):
+    
+    # Convert to a GEOJSON string
+    # dump as file, if you want to save it in file
+    file="datas/omsdata/"+str(index)+".geojson"
+    with open(file,mode="w") as result1:
+            geojson.dump(response,result1)
+    
+     
+    
 
-    with open("C:/Users/seren/position/A/doc.geojson", 'w') as ft:
-        json.dump(data, ft, indent=4)
+def download_osm_data(fichier):
+        
+    f = pd.read_csv(fichier, sep=",")
+    
 
-    with codecs.open('C:/Users/seren/position/A/doc.geojson', 'r', encoding='utf-8') as data:
-        save = data.read()
-    convert = osm2geojson.json2geojson(
-        save, filter_used_refs=False, log_level='INFO')
-    # >> { "type": "FeatureCollection", "features": [ ... ] }
 
-    # Output to a file (GEOJSON serialization)
-    print(file["name"][i])
-    nom_fichier = str(file["id"][i])
-    with open("C:/Users/seren/position/"+nom_fichier+".geojson", 'w') as stream:
-        geojson.dump(convert, stream, indent=4)
+    api = overpass.API(timeout=500)
 
-    j = j+1
 
-print(j)
+    for i in range(len(f)):
+   
+        print("index ="+str(i))
+        if(f['tags_osm'][i] is not np.nan):
+            T=f['tags_osm'][i]
+            #print(f.loc[i,"tags_osm"])
+            tableau=T.split(";")
+            if(len(tableau)==1):
+                #print(tableau)
+                res=tableau[0].split("=")
+                query=construction_requete(res[0],res[1])
+                overpass_query = """
+              area["ISO3166-1"="CM"][admin_level=2];
+             ("""+query+"""
+             );
+             """
+        
+                print(query)
+                print(overpass_query)
+                response1 = make_overpass_request(overpass_query,api)
+                store_geojson_file(i+1,response1)
+                        
+            else:
+                query=""
+                for j in range(len(tableau)):
+                 
+                    res=tableau[j].split("=")
+                    #print(construction_requete(res[0],res[1]))
+                    query+=(construction_requete(res[0],res[1]))
+        
+                    overpass_query = """
+                 area["ISO3166-1"="CM"][admin_level=2];
+              ("""+query+"""
+              );
+              """
+                    print(query)
+                    print(overpass_query)
+                    response = make_overpass_request(overpass_query,api)
+                    store_geojson_file(i+1,response)
+                    
+             
+                 
+                    
+#exécution            
+download_osm_data('datas/sous_categories.csv')
