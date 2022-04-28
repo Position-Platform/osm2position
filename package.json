@@ -4,7 +4,9 @@
   "description": "Package nodejs to retrieve osm data and add them to the position database",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "lint": "eslint .  --ext .js",
+    "lint-fix": "eslint --fix .  --ext .js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,11 @@
   "bugs": {
     "url": "https://github.com/Position-Platform/osm2position-app/issues"
   },
-  "homepage": "https://github.com/Position-Platform/osm2position-app#readme"
+  "homepage": "https://github.com/Position-Platform/osm2position-app#readme",
+  "devDependencies": {
+    "eslint": "^8.14.0"
+  },
+  "dependencies": {
+    "pg": "^8.7.3"
+  }
 }
