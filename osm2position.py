@@ -45,7 +45,7 @@ def store_geojson_file(index, response):
     # Convert to a GEOJSON string
     # dump as file, if you want to save it in file
     file = "datas/omsdata/"+str(index)+".geojson"
-    with open(file, mode="w") as result1:
+    with open(file, mode="w+") as result1:
         geojson.dump(response, result1)
 
 
