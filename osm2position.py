@@ -61,6 +61,8 @@ def download_osm_data(fichier):
         if(f['tags_osm'][i] is not np.nan):
             T = f['tags_osm'][i]
             # print(f.loc[i,"tags_osm"])
+            if(f['tags_osm'][i] == str("end")):
+                break
             tableau = T.split(";")
             if(len(tableau) == 1):
                 # print(tableau)
