@@ -2,7 +2,7 @@
   "name": "osm2position",
   "version": "1.0.0",
   "description": "Package nodejs to retrieve osm data and add them to the position database",
-  "main": "index.js",
+  "main": "osm2position.js",
   "scripts": {
     "test": "npm test",
     "lint": "eslint .  --ext .js",
