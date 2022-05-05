@@ -1,0 +1,65 @@
+﻿id;nom;tags_osm;Osm_data_count;catégorie
+181;Églises;amenity=place_of_worship, religion=christian;1763;autres
+183;Mosquées;amenity=place_of_worship, religion=muslim;1713;autres
+182;Juifs;amenity=place_of_worship, religion=jewish;1706;autres
+56;Forages;man_made=water_well;1587;autres
+145;Cimétière;amenity=grave_yard, landuse=cemetery;689;autres
+54;Menuiseries;craft=carpenter;452;autres
+89;Soudage, Matériels et Produits;craft=welder;273;autres
+53;Bâtiments et Travaux Publics;building=yes;216;autres
+180;Points d'Eau;amenity=drinking_water;209;autres
+79;Electricité - Générale et Industrielle;craft=electronics_repair;150;autres
+47;Garage;building=garage;130;autres
+188;laverie;amenity=car_wash;87;autres
+63;Plomberie et Sanitaires;craft=plumber;66;autres
+61;Peintres;craft=painter;52;autres
+81;Energie;power=station,power=generator;50;autres
+126;Confection, Couture, Broderie;shop=sewing;45;autres
+108;Night Clubs et Discothèques;amenity=nightclub;42;autres
+57;Forages - Maintenance;man_made=water_works;32;autres
+46;Parking;amenity=parking;31;autres
+55;Bricolage;shop=doityourself;15;autres
+44;Garages;amenity=car_rental;11;autres
+185;Plage;natural=beach;9;autres
+24;Agriculture;building=barn;6;autres
+73;Journaux et Presse;office=newspaper;6;autres
+85;Immobilier - Agences;office=estate_agent;6;autres
+92;Editeurs;office=newspaper;6;autres
+66;Serrureries;craft=locksmith;5;autres
+36;Pêche - Commercialisation et Exportation;vending=fishing_bait,leisure=fishing;3;autres
+58;Forages - Matériels et Equipements;man_made=wastewater_plant;2;autres
+80;Electricité - Ingénierie;craft=electrician;2;autres
+25;Elevage;amenity=animal_breeding;1;autres
+27;Industries alimentaires;landuse=industrial;1;autres
+30; Production et Exportation;highway=track,landuse=farm;1;autres
+60;Isolation industrielle;landuse=industrial;1;autres
+71;Agences de Publicité et de Communication;office=advertising_agency;1;autres
+74;Marketing;office=advertising_agency;1;autres
+82;Energie Nouvelle et Renouvelable;power=plant;1;autres
+83;Energie Solaire;generator:source=solar;1;autres
+91;Zone Franche Industrielle;landuse=industrial;1;autres
+5;Blanchisseries et Pressings;amenity=washing_machine;0;autres
+6;Maison et Jardin;landuse=allotmentsrg;0;autres
+32;Distilleries;craft=distillery;0;autres
+33;Environnement;amenity=area;0;autres
+42;Contrôles Techniques;amenity=vehicle_inspection;0;autres
+43;Cycles et Motos;actuator=electric_motor;0;autres
+45;Pneumatiques;actuator=pneumatic_cylinder;0;autres
+52;Bâches et Stores;outlet=noise_barrier;0;autres
+59;Hydraulique;actuator=hydraulic_cylinder;0;autres
+64;Portes et Fenêtres;craft=window_construction;0;autres
+65;Routes;highway=trunk, highway=secondary, type=route;0;autres
+69;Massages;shop=massage;0;autres
+70;Agences de Presse et d'Information;office=publisher;0;autres
+75;Objets Publicitaires;advertising=sculpture;0;autres
+76;Eau - Distribution;vending=water;0;autres
+77;Eau - Laboratoires d'Analyses;landuse=pond;0;autres
+84;Pétroliers, Constructions;generator:source=gasoline;0;autres
+86;Armes et Munitions;shop=military_surplus;0;autres
+90;Tabac, Manufactures et Importateurs;shop=cannabis;0;autres
+106;Loterie;amenity=lottery;0;autres
+116;Drogueries;shop=cannabis;0;autres
+122;Controles Techniques;amenity=vehicule_inspection;0;autres
+127;Equipements et vêtements militaires;shop=military_surplus;0;autres
+130;Location de bateaux;amenity=boat_rental, shop=boat;0;autres
+146;Recyclage;amenity=recycling;0;autres

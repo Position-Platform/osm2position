@@ -1,0 +1,179 @@
+﻿id;nom;tags_osm;Osm_data_count;catégorie
+1;Epicerie;shop=convenience;3038;shop
+2;Bar, Café;amenity=bar, amenity=cafe;2275;restauration
+3;Alcools, vins, spiritueux, drogueries;amenity=bar,shop=alcohol;1881;shop
+4;Boissons;craft=brewery,amenity=bar;1860;shop
+5;Églises;amenity=place_of_worship, religion=christian;1763;autres
+6;Mosquées;amenity=place_of_worship, religion=muslim;1713;autres
+7;Juifs;amenity=place_of_worship, religion=jewish;1706;autres
+8;Forages;man_made=water_well;1587;autres
+9;École;amenity=school;1326;services publiques
+10;Institut de beauté, parfumerie, cosmétiques;shop=beauty;1079;shop
+11;Coiffeur;shop=hairdresser;1053;shop
+12;Restaurant;amenity=restaurant;909;restauration
+13;Vêtements;shop=clothes;715;shop
+14;Cimétière;amenity=grave_yard, landuse=cemetery;689;autres
+15;Automobiles et Concessionnaires;shop=car_repair;660;shop
+16;Automobiles - Pièces Détachées et Accessoires;shop=car_parts;497;shop
+17;Cliniques et Hopitaux;amenity=clinic,ameity=hospital,amenity=healthcare;486;services publiques
+18;Lessive;shop=laundry, shop=dry_cleaning;461;shop
+19;Menuiseries;craft=carpenter;452;autres
+20;Administrations, Offices Nationaux;office=government;394;services publiques
+21;Hôtel;tourism=hotel;387;loisirs et tourisme
+22;Kiosque;shop=kiosk;385;shop
+23;Banques et Organismes Financiers;amenity=bank;326;services publiques
+24;Assistance sociale;amenity=social_facility;306;services publiques
+25;Soudage, Matériels et Produits;craft=welder;273;autres
+26;Pharmacies;amenity=pharmacy;245;services publiques
+27;General;shop=general;220;shop
+28;Bâtiments et Travaux Publics;building=yes;216;autres
+29;Points d'Eau;amenity=drinking_water;209;autres
+30;Supermarché;shop=supermarket;208;shop
+31;Marchand de Fruit;shop=greengrocer;200;shop
+32;Imprimeries;shop=copyshop, craft=printer;175;shop
+33;Collège;amenity=college;174;services publiques
+34;Boulangerie, Pâtisserie;shop=bakery;166;shop
+35;Mairie;amenity=townhall;160;services publiques
+36;Electricité - Générale et Industrielle;craft=electronics_repair;150;autres
+37;Boutique d'Informatique;shop=computer;133;shop
+38;Garage;building=garage;130;autres
+39;Télécommunications et Téléphonie;shop=mobile_phone,utility=telecom, telecom=service_device;127;services publiques
+40;Auto-Ecoles;amenity=driving_school;114;services publiques
+41;travel_agency;shop=travel_agency;110;services publiques
+42;Evénementiel;amenity=community_centre,amenity=events_venue;103;loisirs et tourisme
+43;Salle de spectacles - salle de fêtes;amenity=community_centre,amenity=events_venue;103;loisirs et tourisme
+44;Boutique de Livres;shop=books;99;shop
+45;O.N.G & Organisations Internationales;office=ngo;98;services publiques
+46;Médecin;amenity=doctors;98;services publiques
+47;Assurances;office=insurance;94;services publiques
+48;Chutes d'eau;waterway=waterfall;92;loisirs et tourisme
+49;Associations, syndicats;office=association;91;services publiques
+50;Fournitures Industrielles;shop=furniture;91;shop
+51;laverie;amenity=car_wash;87;autres
+52;Bureaux de Change et Transferts d'argent;amenity=bureau_de_change;78;services publiques
+53;Chaussures;shop=shoes;76;shop
+54;Plomberie et Sanitaires;craft=plumber;66;autres
+55;Attraction;tourism=attraction;63;loisirs et tourisme
+56;Vente d'Alccol;amenity=pub;63;shop
+57;Poste;amenity=post_office;60;services publiques
+58;Monuments;historic=monument;59;loisirs et tourisme
+59;Batiments Publiques;amenity=public_building;58;services publiques
+60;Loisirs, jeux et entertainment;leisure=playground;56;loisirs et tourisme
+61;Peintres;craft=painter;52;autres
+62;Energie;power=station,power=generator;50;autres
+63;Boutiques;shop=boutique;49;shop
+64;Casino;amenity=casino;49;shop
+65;Confection, Couture, Broderie;shop=sewing;45;autres
+66;Agences Maritimes;amenity=ferry_terminal;45;services publiques
+67;Night Clubs et Discothèques;amenity=nightclub;42;autres
+68;Ambassades et Consulats;diplomatic=embassy;40;services publiques
+69;Transports en Commun;public_transport=platform;40;services publiques
+70;Librairie, papeterie;amenity=library;39;shop
+71;Auberge;tourism=motel;38;loisirs et tourisme
+72;Fast Food;amenity=fast_food;38;restauration
+73;Voitures d'occasion;shop=second_hand;35;shop
+74;Forages - Maintenance;man_made=water_works;32;autres
+75;Toilettes;amenity=toilets;32;services publiques
+76;Parking;amenity=parking;31;autres
+77;Bijoux et accessoires;shop=fashion_accessories, shop=jeweley;31;shop
+78;Fournitures de Bureaux;shop=stationery;26;shop
+79;Universités;amenity=university;25;services publiques
+80;Brocante;shop=department_store;25;shop
+81;GAB;amenity=atm;18;services publiques
+82;Stade;leisure=stadium;16;services publiques
+83;Bricolage;shop=doityourself;15;autres
+84;Musique;leisure=bandstand;15;loisirs et tourisme
+85;Hifi, téléphonie;amenity=telephone;15;services publiques
+86;Centre Artistique;amenity=arts_centre;15;services publiques
+87;Aéroports;aeroway=aerodrome;14;services publiques
+88;Assistance Medicale;shop=medical_supply;13;services publiques
+89;Tribunal;amenity=courthouse;13;services publiques
+90;Location de voitures;amenity=car_rental,amenity=car_sharing;13;shop
+91;Espaces verts et Jardins;leisure=park;12;loisirs et tourisme
+92;Garages;amenity=car_rental;11;autres
+93;Vétérinaires;amenity=veterinary;10;services publiques
+94;Maisons de Repos;amenity=nursing_home;10;services publiques
+95;Plage;natural=beach;9;autres
+96;Musée;tourism=museum;8;loisirs et tourisme
+97;Sport;building=pavilion,club=sport,leisure=fitness_centre;8;loisirs et tourisme
+98;Centre culturel;landuse=recreation_ground;7;loisirs et tourisme
+99;Produit d'Entretien;shop=chemist;7;shop
+100;Agriculture;building=barn;6;autres
+101;Journaux et Presse;office=newspaper;6;autres
+102;Immobilier - Agences;office=estate_agent;6;autres
+103;Editeurs;office=newspaper;6;autres
+104;Ameublement et Mobilier;office=estate_agent;6;services publiques
+105;Boites Postales;amenity=post_box;6;services publiques
+106;Matelas;shop=bed;6;shop
+107;Serrureries;craft=locksmith;5;autres
+108;Centres d'Information;information=office;5;services publiques
+109;Piscines;leisure=swimming_pool;4;loisirs et tourisme
+110;Camping; tourism=camp_site;4;loisirs et tourisme
+111;Prison;amenity=prison;4;services publiques
+112;Fleuriste;shop=florist;4;shop
+113;Centre Commercial;shop=mall;4;shop
+114;Pêche - Commercialisation et Exportation;vending=fishing_bait,leisure=fishing;3;autres
+115;Incendie et Protection - Matériels;amenity=fire_station;3;services publiques
+116;Forages - Matériels et Equipements;man_made=wastewater_plant;2;autres
+117;Electricité - Ingénierie;craft=electrician;2;autres
+118;Cinéma et vidéothèques;amenity=cinema;2;loisirs et tourisme
+119;zoo;tourism=zoo;2;loisirs et tourisme
+120;Crèche;amenity=kindgarten, amenity=childcare;2;services publiques
+121;Mobilier de Jardin;leisure=garden;2;shop
+122;toyshop;shop=toys;2;shop
+123;Vente de Journaux;shop=newsagent;2;shop
+124;Jouets et jeux;shop=toys;2;shop
+125;Elevage;amenity=animal_breeding;1;autres
+126;Industries alimentaires;landuse=industrial;1;autres
+127; Production et Exportation;highway=track,landuse=farm;1;autres
+128;Isolation industrielle;landuse=industrial;1;autres
+129;Agences de Publicité et de Communication;office=advertising_agency;1;autres
+130;Marketing;office=advertising_agency;1;autres
+131;Energie Nouvelle et Renouvelable;power=plant;1;autres
+132;Energie Solaire;generator:source=solar;1;autres
+133;Zone Franche Industrielle;landuse=industrial;1;autres
+134;Théâtre, spectacle;amenity=theatre;1;loisirs et tourisme
+135;Ambulance;emergency=ambulance_station;1;services publiques
+136;Urgences Medicales;emergency=ambulance_station;1;services publiques
+137;Salons de Thé et Glaciers;shop=ice_cream;1;shop
+138;Blanchisseries et Pressings;amenity=washing_machine;0;autres
+139;Maison et Jardin;landuse=allotmentsrg;0;autres
+140;Distilleries;craft=distillery;0;autres
+141;Environnement;amenity=area;0;autres
+142;Contrôles Techniques;amenity=vehicle_inspection;0;autres
+143;Cycles et Motos;actuator=electric_motor;0;autres
+144;Pneumatiques;actuator=pneumatic_cylinder;0;autres
+145;Bâches et Stores;outlet=noise_barrier;0;autres
+146;Hydraulique;actuator=hydraulic_cylinder;0;autres
+147;Portes et Fenêtres;craft=window_construction;0;autres
+148;Routes;highway=trunk, highway=secondary, type=route;0;autres
+149;Massages;shop=massage;0;autres
+150;Agences de Presse et d'Information;office=publisher;0;autres
+151;Objets Publicitaires;advertising=sculpture;0;autres
+152;Eau - Distribution;vending=water;0;autres
+153;Eau - Laboratoires d'Analyses;landuse=pond;0;autres
+154;Pétroliers, Constructions;generator:source=gasoline;0;autres
+155;Armes et Munitions;shop=military_surplus;0;autres
+156;Tabac, Manufactures et Importateurs;shop=cannabis;0;autres
+157;Loterie;amenity=lottery;0;autres
+158;Drogueries;shop=cannabis;0;autres
+159;Controles Techniques;amenity=vehicule_inspection;0;autres
+160;Equipements et vêtements militaires;shop=military_surplus;0;autres
+161;Location de bateaux;amenity=boat_rental, shop=boat;0;autres
+162;Recyclage;amenity=recycling;0;autres
+163;Cabaret;leisure=dance;0;loisirs et tourisme
+164;Tennis;sport=tennis;0;loisirs et tourisme
+165;Golf;leisure=golf_course;0;loisirs et tourisme
+166;Traiteurs;amenity=caterer;0;restauration
+167;Brasseries;craft=brewery;0;services publiques
+168;Opticiens;craft=optician;0;services publiques
+169;Télécommunications - Réseaux;utility=telecom, telecom=service_device;0;services publiques
+170;Aéronautique;building=hangar;0;services publiques
+171;Chemin de Fer;railway=subway;0;services publiques
+172;Transports Routiers;route=coach;0;services publiques
+173;Transports Urbains;route=coach;0;services publiques
+174;Ecoles Maternelles;amenity=kindergarden;0;services publiques
+175;Tabac;shop=cannabis;0;shop
+176;Magasin de sport;shop=sport;0;shop
+177;Lait, Yaourt et Fromage;shop=cheese;0;shop
+178;Laiteries;vending=milk;0;shop

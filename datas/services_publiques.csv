@@ -1,0 +1,49 @@
+﻿id;nom;tags_osm;Osm_data_count;catégorie
+152;École;amenity=school;1326;services publiques
+115;Cliniques et Hopitaux;amenity=clinic,ameity=hospital,amenity=healthcare;486;services publiques
+19;Administrations, Offices Nationaux;office=government;394;services publiques
+49;Banques et Organismes Financiers;amenity=bank;326;services publiques
+113;Assistance sociale;amenity=social_facility;306;services publiques
+119;Pharmacies;amenity=pharmacy;245;services publiques
+154;Collège;amenity=college;174;services publiques
+140;Mairie;amenity=townhall;160;services publiques
+124;Télécommunications et Téléphonie;shop=mobile_phone,utility=telecom, telecom=service_device;127;services publiques
+38;Auto-Ecoles;amenity=driving_school;114;services publiques
+173;travel_agency;shop=travel_agency;110;services publiques
+22;O.N.G & Organisations Internationales;office=ngo;98;services publiques
+114;Médecin;amenity=doctors;98;services publiques
+48;Assurances;office=insurance;94;services publiques
+21;Associations, syndicats;office=association;91;services publiques
+50;Bureaux de Change et Transferts d'argent;amenity=bureau_de_change;78;services publiques
+23;Poste;amenity=post_office;60;services publiques
+155;Batiments Publiques;amenity=public_building;58;services publiques
+134;Agences Maritimes;amenity=ferry_terminal;45;services publiques
+20;Ambassades et Consulats;diplomatic=embassy;40;services publiques
+136;Transports en Commun;public_transport=platform;40;services publiques
+179;Toilettes;amenity=toilets;32;services publiques
+151;Universités;amenity=university;25;services publiques
+175;GAB;amenity=atm;18;services publiques
+159;Stade;leisure=stadium;16;services publiques
+7;Hifi, téléphonie;amenity=telephone;15;services publiques
+144;Centre Artistique;amenity=arts_centre;15;services publiques
+133;Aéroports;aeroway=aerodrome;14;services publiques
+117;Assistance Medicale;shop=medical_supply;13;services publiques
+141;Tribunal;amenity=courthouse;13;services publiques
+121;Vétérinaires;amenity=veterinary;10;services publiques
+143;Maisons de Repos;amenity=nursing_home;10;services publiques
+13;Ameublement et Mobilier;office=estate_agent;6;services publiques
+139;Boites Postales;amenity=post_box;6;services publiques
+51;Centres d'Information;information=office;5;services publiques
+142;Prison;amenity=prison;4;services publiques
+123;Incendie et Protection - Matériels;amenity=fire_station;3;services publiques
+78;Crèche;amenity=kindgarten, amenity=childcare;2;services publiques
+112;Ambulance;emergency=ambulance_station;1;services publiques
+120;Urgences Medicales;emergency=ambulance_station;1;services publiques
+29;Brasseries;craft=brewery;0;services publiques
+118;Opticiens;craft=optician;0;services publiques
+125;Télécommunications - Réseaux;utility=telecom, telecom=service_device;0;services publiques
+132;Aéronautique;building=hangar;0;services publiques
+135;Chemin de Fer;railway=subway;0;services publiques
+137;Transports Routiers;route=coach;0;services publiques
+138;Transports Urbains;route=coach;0;services publiques
+153;Ecoles Maternelles;amenity=kindergarden;0;services publiques

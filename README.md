@@ -14,6 +14,8 @@ const config = {
 }
 ```
 
+- Creer les dossiers des categories dans le dossier data/
+
 - Exécuter le script
 
 ```

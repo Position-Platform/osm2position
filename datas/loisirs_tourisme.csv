@@ -1,0 +1,22 @@
+﻿id;nom;tags_osm;Osm_data_count;catégorie
+128;Hôtel;tourism=hotel;387;loisirs et tourisme
+129;Auberge;tourism=motel;38;loisirs et tourisme
+72;Evénementiel;amenity=community_centre,amenity=events_venue;103;loisirs et tourisme
+104;Salle de spectacles - salle de fêtes;amenity=community_centre,amenity=events_venue;103;loisirs et tourisme
+186;Chutes d'eau;waterway=waterfall;92;loisirs et tourisme
+176;Attraction;tourism=attraction;63;loisirs et tourisme
+177;Monuments;historic=monument;59;loisirs et tourisme
+105;Loisirs, jeux et entertainment;leisure=playground;56;loisirs et tourisme
+98;Musique;leisure=bandstand;15;loisirs et tourisme
+103;Espaces verts et Jardins;leisure=park;12;loisirs et tourisme
+97;Musée;tourism=museum;8;loisirs et tourisme
+102;Sport;building=pavilion,club=sport,leisure=fitness_centre;8;loisirs et tourisme
+96;Centre culturel;landuse=recreation_ground;7;loisirs et tourisme
+62;Piscines;leisure=swimming_pool;4;loisirs et tourisme
+187;Camping; tourism=camp_site;4;loisirs et tourisme
+95;Cinéma et vidéothèques;amenity=cinema;2;loisirs et tourisme
+178;zoo;tourism=zoo;2;loisirs et tourisme
+99;Théâtre, spectacle;amenity=theatre;1;loisirs et tourisme
+100;Cabaret;leisure=dance;0;loisirs et tourisme
+157;Tennis;sport=tennis;0;loisirs et tourisme
+158;Golf;leisure=golf_course;0;loisirs et tourisme

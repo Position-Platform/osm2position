@@ -1,0 +1,42 @@
+﻿id;nom;tags_osm;Osm_data_count;catégorie
+4;Epicerie;shop=convenience;3038;shop
+26;Alcools, vins, spiritueux, drogueries;amenity=bar,shop=alcohol;1881;shop
+28;Boissons;craft=brewery,amenity=bar;1860;shop
+68;Institut de beauté, parfumerie, cosmétiques;shop=beauty;1079;shop
+67;Coiffeur;shop=hairdresser;1053;shop
+16;Vêtements;shop=clothes;715;shop
+39;Automobiles et Concessionnaires;shop=car_repair;660;shop
+40;Automobiles - Pièces Détachées et Accessoires;shop=car_parts;497;shop
+174;Lessive;shop=laundry, shop=dry_cleaning;461;shop
+164;Kiosque;shop=kiosk;385;shop
+166;General;shop=general;220;shop
+3;Supermarché;shop=supermarket;208;shop
+171;Marchand de Fruit;shop=greengrocer;200;shop
+93;Imprimeries;shop=copyshop, craft=printer;175;shop
+9;Boulangerie, Pâtisserie;shop=bakery;166;shop
+172;Boutique d'Informatique;shop=computer;133;shop
+168;Boutique de Livres;shop=books;99;shop
+87;Fournitures Industrielles;shop=furniture;91;shop
+17;Chaussures;shop=shoes;76;shop
+160;Vente d'Alccol;amenity=pub;63;shop
+1;Boutiques;shop=boutique;49;shop
+94;Casino;amenity=casino;49;shop
+101;Librairie, papeterie;amenity=library;39;shop
+41;Voitures d'occasion;shop=second_hand;35;shop
+18;Bijoux et accessoires;shop=fashion_accessories, shop=jeweley;31;shop
+14;Fournitures de Bureaux;shop=stationery;26;shop
+2;Brocante;shop=department_store;25;shop
+131;Location de voitures;amenity=car_rental,amenity=car_sharing;13;shop
+167;Produit d'Entretien;shop=chemist;7;shop
+88;Matelas;shop=bed;6;shop
+8;Fleuriste;shop=florist;4;shop
+165;Centre Commercial;shop=mall;4;shop
+15;Mobilier de Jardin;leisure=garden;2;shop
+169;toyshop;shop=toys;2;shop
+170;Vente de Journaux;shop=newsagent;2;shop
+11;Jouets et jeux;shop=toys;2;shop
+111;Salons de Thé et Glaciers;shop=ice_cream;1;shop
+10;Tabac;shop=cannabis;0;shop
+12;Magasin de sport;shop=sport;0;shop
+34;Lait, Yaourt et Fromage;shop=cheese;0;shop
+35;Laiteries;vending=milk;0;shop

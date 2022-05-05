@@ -1,0 +1,5 @@
+﻿id;nom;tags_osm;Osm_data_count;catégorie
+110;Bar, Café;amenity=bar, amenity=cafe;2275;restauration
+107;Restaurant;amenity=restaurant;909;restauration
+109;Fast Food;amenity=fast_food;38;restauration
+37;Traiteurs;amenity=caterer;0;restauration
