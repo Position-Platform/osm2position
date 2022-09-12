@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/Position-Platform/osm2position-app#readme",
   "devDependencies": {
-    "eslint": "^8.15.0"
+    "eslint": "^8.23.1"
   },
   "dependencies": {
     "boxen": "^6.2.1",
