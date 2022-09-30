@@ -1,9 +1,9 @@
-var pg = require('pg')
+let pg = require('pg')
 
 const config = {
     user: 'postgres',
     host: 'localhost',
-    database: 'services_position',
+    database: 'demo_position',
     password: 'postgres',
     port: 5432,
 }

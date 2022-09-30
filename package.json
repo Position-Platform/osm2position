@@ -31,6 +31,7 @@
   "dependencies": {
     "boxen": "^6.2.1",
     "chalk": "^5.0.1",
+    "nominatim-client": "^3.2.1",
     "pg": "^8.7.3"
   }
 }
