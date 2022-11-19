@@ -1,0 +1,14 @@
+version: "3"
+services:
+  osm2pgsql:
+    build:
+      context: .
+      dockerfile: .docker/Dockerfile
+    image: osm2pgsql
+    container_name: osm2pgsql
+    restart: unless-stopped
+    tty: true
+    volumes:
+      - ./:/var/www/html
+    ports:
+      - "2003:80"
