@@ -158,23 +158,23 @@ function addDataInDb(client, done) {
                         let query0 = `INSERT INTO etablissements ("batiment_id", description,  nom, "code_postal", "site_internet", "user_id", etage, services, phone, whatsapp1, "osm_id",created_at,updated_at,cover) VALUES ('${etablissement.idBatiment}', '${etablissement.description}',  '${etablissement.nom}', '${etablissement.codePostal}', '${etablissement.siteInternet}', '${etablissement.idUser}', '${etablissement.etage}', '${etablissement.services}', '${etablissement.phone}', '${etablissement.whatsapp1}', '${etablissement.osmId}','${etablissement.createdAt}','${etablissement.updatedAt}','${etablissement.cover}' ) RETURNING *`;
                         client.query(query0, (err, result1) => {
 
+                            if (result1) {
+                                let query1 = `INSERT INTO sous_categories_etablissements ("etablissement_id", "sous_categorie_id") VALUES ('${result1.rows[0].id}', '${souscategorie}')`;
+                                client.query(query1, (err, result) => {
 
-                            let query1 = `INSERT INTO sous_categories_etablissements ("etablissement_id", "sous_categorie_id") VALUES ('${result1.rows[0].id}', '${souscategorie}')`;
-                            client.query(query1, (err, result) => {
-                                if (err) {
-
-                                }
-
-                            }
-                            );
-
-                            let query2 = `INSERT INTO commodites_etablissements ("etablissement_id", "commodite_id") VALUES ('${result1.rows[0].id}', '${1}')`;
-                            client.query(query2, (err, result) => {
-                                if (err) {
 
                                 }
+                                );
+
+                                let query2 = `INSERT INTO commodites_etablissements ("etablissement_id", "commodite_id") VALUES ('${result1.rows[0].id}', '${1}')`;
+                                client.query(query2, (err, result) => {
+
+                                }
+                                );
                             }
-                            );
+
+
+
 
 
 
