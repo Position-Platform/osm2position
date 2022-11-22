@@ -162,7 +162,7 @@ function addDataInDb(client, done) {
                             let query1 = `INSERT INTO sous_categories_etablissements ("etablissement_id", "sous_categorie_id") VALUES ('${result1.rows[0].id}', '${souscategorie}')`;
                             client.query(query1, (err, result) => {
                                 if (err) {
-                                    console.log(err);
+
                                 }
 
                             }
@@ -171,7 +171,7 @@ function addDataInDb(client, done) {
                             let query2 = `INSERT INTO commodites_etablissements ("etablissement_id", "commodite_id") VALUES ('${result1.rows[0].id}', '${1}')`;
                             client.query(query2, (err, result) => {
                                 if (err) {
-                                    console.log(err);
+
                                 }
                             }
                             );
@@ -197,7 +197,7 @@ function addDataInDb(client, done) {
                                         client.query(query, (err, result) => {
 
                                             if (err) {
-                                                console.log(err);
+
                                             }
                                         });
                                     }
@@ -217,7 +217,7 @@ function addDataInDb(client, done) {
                                         client.query(query, (err, result) => {
 
                                             if (err) {
-                                                console.log(err);
+
                                             }
                                         });
                                     }
@@ -238,7 +238,7 @@ function addDataInDb(client, done) {
                                         client.query(query, (err, result) => {
 
                                             if (err) {
-                                                console.log(err);
+
                                             }
                                         });
                                     }
@@ -259,7 +259,7 @@ function addDataInDb(client, done) {
                                         client.query(query, (err, result) => {
 
                                             if (err) {
-                                                console.log(err);
+
                                             }
                                         });
                                     }
@@ -280,7 +280,7 @@ function addDataInDb(client, done) {
                                         client.query(query, (err, result) => {
 
                                             if (err) {
-                                                console.log(err);
+
                                             }
                                         });
                                     }
@@ -301,7 +301,7 @@ function addDataInDb(client, done) {
                                         client.query(query, (err, result) => {
 
                                             if (err) {
-                                                console.log(err);
+
                                             }
                                         });
                                     }
@@ -322,7 +322,7 @@ function addDataInDb(client, done) {
                                         client.query(query, (err, result) => {
 
                                             if (err) {
-                                                console.log(err);
+
                                             }
                                         });
                                     }
