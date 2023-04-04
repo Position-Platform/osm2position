@@ -141,6 +141,7 @@ function addDataInDb(client, done) {
                             idUser: 1,
                             etage: 0,
                             services: "Non Defini",
+                            commodites: "",
                             phone: phone ?? "000000000",
                             whatsapp1: "000000000",
                             osmId: id,
@@ -155,7 +156,7 @@ function addDataInDb(client, done) {
                                 replace(/\..+/, ''),
                         };
 
-                        let query0 = `INSERT INTO etablissements ("batiment_id", description,  nom, "code_postal", "site_internet", "user_id", etage, services, phone, whatsapp1, "osm_id",created_at,updated_at,cover) VALUES ('${etablissement.idBatiment}', '${etablissement.description}',  '${etablissement.nom}', '${etablissement.codePostal}', '${etablissement.siteInternet}', '${etablissement.idUser}', '${etablissement.etage}', '${etablissement.services}', '${etablissement.phone}', '${etablissement.whatsapp1}', '${etablissement.osmId}','${etablissement.createdAt}','${etablissement.updatedAt}','${etablissement.cover}' ) RETURNING *`;
+                        let query0 = `INSERT INTO etablissements ("batiment_id", description,  nom, "code_postal", "site_internet", "user_id", etage, services, commodites, phone, whatsapp1, "osm_id",created_at,updated_at,cover) VALUES ('${etablissement.idBatiment}', '${etablissement.description}',  '${etablissement.nom}', '${etablissement.codePostal}', '${etablissement.siteInternet}', '${etablissement.idUser}', '${etablissement.etage}', '${etablissement.services}',  '${etablissement.commodites}', '${etablissement.phone}', '${etablissement.whatsapp1}', '${etablissement.osmId}','${etablissement.createdAt}','${etablissement.updatedAt}','${etablissement.cover}' ) RETURNING *`;
                         client.query(query0, (err, result1) => {
 
                             if (result1) {
@@ -165,17 +166,7 @@ function addDataInDb(client, done) {
 
                                 }
                                 );
-
-                                let query2 = `INSERT INTO commodites_etablissements ("etablissement_id", "commodite_id") VALUES ('${result1.rows[0].id}', '${1}')`;
-                                client.query(query2, (err, result) => {
-
-                                }
-                                );
                             }
-
-
-
-
 
 
                             if (opening_hours != undefined) {
