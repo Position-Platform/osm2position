@@ -1,5 +1,5 @@
 const { pool } = require('./functions/db.js')
-const { addDataInDb } = require('./functions/app.js')
+const { addDataInDb } = require('./functions/ourvillage.js')
 
 function osm2position() {
     pool.connect((err, client, done) => {

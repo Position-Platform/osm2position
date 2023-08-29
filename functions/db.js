@@ -3,7 +3,7 @@ let pg = require('pg')
 const config = {
     user: 'postgres',
     host: 'localhost',
-    database: 'demo_position',
+    database: 'position',
     password: 'postgres',
     port: 5432,
 }
