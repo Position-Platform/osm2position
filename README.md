@@ -20,6 +20,6 @@ const config = {
 
 ```
 $ npm install
-$ python osm2position.py
+$ python3.10 osm2position.py
 $ node osm2position.js
 ```
