@@ -1,5 +1,6 @@
 const fs = require("fs");
 const { convertHour } = require("./convert.js");
+const axios = require("axios");
 /*const  chalk  = require("chalk");
 const boxen = require("boxen");
 
@@ -71,8 +72,10 @@ function addDataInDb(client, done) {
 
     var time = 0;
 
-    var interval = setInterval(function () {
+    var interval = setInterval(async function () {
         if (time < dataosm.length) {
+
+
 
             let osm = dataosm[time];
             let name = osm["properties"]["name"];
@@ -324,7 +327,7 @@ function addDataInDb(client, done) {
 
                             }
 
-                            console.log("Etablissement " + name + " Bien ajouté");
+                            console.log("Etablissement " + name + " Bien ajouté" + "(" + time + "/" + dataosm.length + ")");
 
 
 
